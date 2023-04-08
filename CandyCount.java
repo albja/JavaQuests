@@ -1,4 +1,4 @@
-public class CandyCount {
+class CandyCount {
     public static void main(String[] args) {
         double realMoney = 12.4;
         double realPrice = 1.2;
@@ -13,6 +13,8 @@ public class CandyCount {
     }
 
 }
+// RESULT IS 10
+
 // réel money ← 12.4;
 // réel price ← 1.2
 // entier candies ← 0
