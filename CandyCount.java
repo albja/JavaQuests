@@ -6,7 +6,7 @@ public class CandyCount {
         if (realMoney > 0 && realPrice > 0) {
             while (realMoney - realPrice >= 0) {
                 candies = candies + 1;
-                realMoney = realMoney + 1;
+                realMoney = realMoney - realPrice;
             }
         }
         System.out.println(candies);
